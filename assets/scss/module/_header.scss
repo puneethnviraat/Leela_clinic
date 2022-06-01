@@ -258,7 +258,7 @@
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: #283b6a;
+    background-color: #2B2E34;
 
     .contact__list {
 
@@ -279,7 +279,7 @@
 
             >i {
                 font-size: 16px;
-                color: #788fc8;
+                color: #e6ccb2;
                 margin-right: 8px;
             }
 
@@ -290,11 +290,9 @@
     }
 
     .social-icons li a {
-        color: $color-secondary;
-        background-color: $color-primary;
-
+        background-color: $color-secondary;
         &:hover {
-            background-color: $color-white;
+            background-color:$color-dark;
         }
     }
 
@@ -315,25 +313,25 @@
             }
 
             &::-webkit-input-placeholder {
-                color: #788fc8;
+                color: #e6ccb2;
                 font-style: italic;
                 font-size: 13px;
             }
 
             &:-moz-placeholder {
-                color: #788fc8;
+                color: #e6ccb2;
                 font-style: italic;
                 font-size: 13px;
             }
 
             &::-moz-placeholder {
-                color: #788fc8;
+                color: #e6ccb2;
                 font-style: italic;
                 font-size: 13px;
             }
 
             &:-ms-input-placeholder {
-                color: #788fc8;
+                color: #e6ccb2;
                 font-style: italic;
                 font-size: 13px;
             }
@@ -833,7 +831,7 @@
 
     .header-layout3 {
         .topbar__text {
-            color: #788fc8;
+            color: #e6ccb2;
         }
 
         .navbar .navbar-brand {

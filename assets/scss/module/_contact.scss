@@ -18,13 +18,13 @@
 
             &:nth-of-type(2) {
                 .contact-box {
-                    background-color: #3851a2;
+                    background-color: #c3b5a4;
                 }
             }
 
             &:nth-of-type(3) {
                 .contact-box {
-                    background-color: #2d4990;
+                    background-color: #b09e90;
                 }
             }
         }
@@ -66,7 +66,11 @@
                 border-radius: 50%;
                 text-align: center;
                 margin-right: 10px;
-                background-color: #1ebaae;
+                background-color: #c3b5a4;
+                &:hover{
+                background-color: #b09e90;
+
+                }
             }
         }
 

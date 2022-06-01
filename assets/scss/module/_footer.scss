@@ -5,12 +5,12 @@
     .footer-primary {
         padding-top: 85px;
         padding-bottom: 60px;
-        background-color: #1d2a4d;
+        background-color: #2B2E34;
     }
 
     .footer-secondary {
         position: relative;
-        padding: 46px 0;
+        padding: 30px 0;
         background-color: $color-white;
 
         &:after {
@@ -112,7 +112,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 1;
-    color: #3851a2 !important;
+    color: #2B2E34 !important;
 
     &:hover {
         color: $color-primary !important;
