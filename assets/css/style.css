@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@200;400&family=Yrsa&display=swap");
 /*--------------------------
     Project Name: Medcity
     Version: 1.0
@@ -61,7 +62,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Spectral", serif;
   font-size: 14px;
   color: #8b8172;
   overflow-x: hidden;
@@ -209,7 +210,7 @@ body {
 }
 
 .font-secondary {
-  font-family: "Roboto", sans-serif;
+  font-family: "Spectral", serif;
 }
 
 .lh-1 {
@@ -1110,7 +1111,7 @@ h4,
 h5,
 h6 {
   color: #2B2E34;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Spectral", serif;
   text-transform: capitalize;
   font-weight: 700;
   line-height: 1.3;
@@ -1147,7 +1148,7 @@ h6 {
 }
 
 .heading__subtitle {
-  font-family: "Roboto", sans-serif;
+  font-family: "Spectral", serif;
   font-size: 15px;
   color: #2B2E34;
   margin-bottom: 12px;
@@ -1250,6 +1251,11 @@ h6 {
     margin-bottom: 10px;
   }
 }
+#demo {
+  color: #b08968;
+  font-style: italic;
+}
+
 /*-------------------------
     page title 
 -------------------------*/
@@ -3609,7 +3615,7 @@ input[type=radio] {
   color: #B08968;
 }
 .search-popup .search-popup__form__input {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Spectral", serif;
   font-weight: 300;
   font-size: 35px;
   z-index: 1;
@@ -4058,7 +4064,7 @@ input[type=radio] {
   }
   .navbar .dropdown-menu.wide-dropdown-menu .dropdown-menu-title {
     color: #2B2E34;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Spectral", serif;
     font-weight: 700;
     font-size: 17px;
     line-height: 1;
@@ -4315,7 +4321,7 @@ input[type=radio] {
   background-color: #ffffff;
 }
 .accordion-item .accordion__title {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Spectral", serif;
   font-weight: 700;
   font-size: 18px;
   cursor: pointer;
@@ -4519,7 +4525,7 @@ input[type=radio] {
 .phone__number {
   display: inline-flex;
   align-items: center;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Spectral", serif;
   font-weight: 700;
   font-size: 22px;
   line-height: 1;
@@ -4630,7 +4636,7 @@ input[type=radio] {
   box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.12);
 }
 .cta-banner .cta__title {
-  font-family: "Roboto", sans-serif;
+  font-family: "Spectral", serif;
   font-size: 17px;
   line-height: 1.6;
 }
@@ -4687,7 +4693,8 @@ input[type=radio] {
   font-size: 75px;
   line-height: 1.1;
   margin-bottom: 25px;
-  color: #ffffff;
+  color: #b08968;
+  text-shadow: 2px 2px #f8b482;
 }
 .slider .slide__desc {
   color: #1a0e05;
@@ -4717,7 +4724,7 @@ input[type=radio] {
   background-color: #B08968;
 }
 .slider .cta-banner .cta__title {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Spectral", serif;
 }
 .slider .cta-banner .slick-dots {
   position: static;
@@ -5804,7 +5811,7 @@ input[type=radio] {
   background-image: url(../images/icons/text-shape.png);
 }
 .testimonials__rating .total__rate {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Spectral", serif;
   font-size: 38px;
   font-weight: 700;
   color: #B08968;
@@ -6123,7 +6130,7 @@ input[type=radio] {
   padding: 0 10px;
 }
 .widget-nav .widget-nav__content span {
-  font-family: "Roboto", sans-serif;
+  font-family: "Spectral", serif;
   font-size: 13px;
   color: #616161;
   display: block;
@@ -6640,7 +6647,7 @@ textarea.form-control {
   margin-bottom: 15px;
 }
 .pricing-package .package__price {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Spectral", serif;
   font-size: 50px;
   font-weight: 600;
   color: #435ba1;
@@ -6877,7 +6884,7 @@ textarea.form-control {
   display: flex;
   align-items: center;
   color: #8B8172;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Spectral", serif;
   font-size: 15px;
   font-weight: 700;
   text-transform: capitalize;
@@ -6920,7 +6927,7 @@ textarea.form-control {
   padding: 22px 30px;
   text-transform: capitalize;
   border-radius: 50px;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Spectral", serif;
   color: #8B8172;
   background-color: #ffffff;
   -webkit-transition: all 0.4s ease;
@@ -7115,7 +7122,7 @@ textarea.form-control {
   line-height: 88px;
   border-radius: 10px;
   font-size: 17px;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Spectral", serif;
 }
 .widget-reports .btn:before {
   display: none;
@@ -7835,7 +7842,7 @@ textarea.form-control {
   background-color: #435ba1;
 }
 .doctors-timetable .event .event__header {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Spectral", serif;
   display: block;
   color: #ffffff !important;
   font-size: 15px;
@@ -7846,7 +7853,7 @@ textarea.form-control {
   font-size: 13px;
 }
 .doctors-timetable .event .doctor__name {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Spectral", serif;
   font-size: 14px;
   font-weight: 700;
 }
@@ -8148,7 +8155,7 @@ textarea.form-control {
   margin-bottom: 0;
 }
 .product__meta-details li span:first-of-type {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Spectral", serif;
   color: #2B2E34;
   font-weight: 700;
   font-size: 16px;
@@ -8409,7 +8416,7 @@ textarea.form-control {
   position: absolute;
   top: 20px;
   right: 30px;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Spectral", serif;
   font-size: 104px;
   font-weight: 700;
   line-height: 1;
