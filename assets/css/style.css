@@ -5539,13 +5539,13 @@ input[type=radio] {
   color: #ffffff;
 }
 .member .social-icons li a.facebook {
-  background-color: #3b5999;
+  background-color: #B08968;
 }
 .member .social-icons li a.twitter {
-  background-color: #55acee;
+  background-color: #c3b5a4;
 }
 .member .social-icons li a.phone {
-  background-color: #283b6a;
+  background-color: #b09e90;
 }
 .member .social-icons li a:hover {
   background-color: #222222;
@@ -7063,7 +7063,7 @@ textarea.form-control {
   border-radius: 50%;
   text-align: center;
   margin-right: 10px;
-  background-color: #3851a2;
+  background-color: #B08968;
 }
 
 /* Widget schedule */
