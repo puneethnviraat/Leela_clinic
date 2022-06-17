@@ -273,3 +273,23 @@
         }
     }
 }
+ 
+  
+  @media all and (max-width: 768px) {
+     .item-img-mobile {
+      display: block !important;
+    }
+  
+    .item-img-desktop {
+      display: none !important;
+    }
+  }
+  @media all and (min-width: 769px) {
+    .item-img-mobile {
+     display: none !important;
+   }
+ 
+   .item-img-desktop {
+     display: block !important;
+   }
+ }
