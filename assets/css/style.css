@@ -4692,7 +4692,6 @@ input[type=radio] {
 .slider .slide__title {
   font-size: 75px;
   line-height: 1.1;
-  backdrop-filter: blur(2px);
   color: #AF4E40;
   text-shadow: 2px 2px #fff;
 }
