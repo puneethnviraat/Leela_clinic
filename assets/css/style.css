@@ -4693,7 +4693,7 @@ input[type=radio] {
   font-size: 75px;
   line-height: 1.1;
   color: #AF4E40;
-  text-shadow: 2px 2px #fff;
+  text-shadow: 1px 1px #fff;
 }
 .slider .slide__desc {
   color: #1a0e05;
