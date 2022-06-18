@@ -3318,14 +3318,11 @@ input[type=radio] {
 }
 
 .miniPopup-emergency-trigger {
-  position: relative;
-  z-index: 151;
-  height: 50px;
-  margin-top: 10px;
+  margin-top: 35px;
   padding: 10px 20px;
   border-radius: 10px 10px 0 0;
   color: #8B8172;
-  background-color: #ffffff;
+  visibility: hidden;
 }
 .miniPopup-emergency-trigger:after {
   content: "\f078";
@@ -4217,6 +4214,9 @@ input[type=radio] {
   }
   .header .action__btn-login span {
     display: none;
+  }
+  .header .logo-dark {
+    max-height: 75px;
   }
 }
 /* Header Animation */
