@@ -554,3 +554,17 @@
         }
     }
 }
+.values_row{
+    h3{
+        color: #B08968;
+    }
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border:.5px solid #e6e8eb;
+    border-radius: 10px;
+    &:hover {
+        box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.15);
+        z-index: 999;
+            }
+}

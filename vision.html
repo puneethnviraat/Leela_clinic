@@ -33,7 +33,7 @@
               <div class="d-flex align-items-center justify-content-between">
                 <ul class="contact__list d-flex flex-wrap align-items-center list-unstyled mb-0">
                   <li>
-                    <button class="miniPopup-emergency-trigger" type="button">For Emergency</button>
+                    <button class="miniPopup-emergency-trigger" type="button"></button>
                     <div id="miniPopup-emergency" class="miniPopup miniPopup-emergency text-center">
                       <div class="emergency__icon">
                         <i class="icon-call3"></i>
@@ -76,7 +76,7 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
             <img src="assets/images/logo/logo-light.png" class="logo-light" alt="logo">
-            <img src="assets/images/logo/logo-dark.png" class="logo-dark" alt="logo">
+            <img src="assets/images/logo/Leela-Clinic_log_new.jpg"  Height="100" class="logo-dark" alt="logo">
           </a>
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
@@ -159,16 +159,16 @@
        page title 
     =========================== -->
     <section class="page-title page-title-layout5 bg-overlay text-center">
-      <div class="bg-img"><img src="assets/images/page-titles/6.jpg" alt="background"></div>
+      <div class="bg-img"><img src="assets/images/page-titles/5.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1 class="pagetitle__heading">vision mission and goals</h1>
+            <h1 class="pagetitle__heading">Vision, Mission & Values</h1>
             <nav>
               <ol class="breadcrumb justify-content-center mb-0">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                 <li class="breadcrumb-item"><a href="about-us.html">About</a></li>
-                <li class="breadcrumb-item active" aria-current="page">vision mission and goals</li>
+                <li class="breadcrumb-item active" aria-current="page">Vision, Mission & Values</li>
               </ol>
             </nav>
           </div><!-- /.col-xl-6 -->
@@ -179,13 +179,60 @@
      gallery layout2
     =========================== -->
     <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
-        <div class="heading text-center mt-90 mb-40">
-          <h2 id="demo"></h2>
-          <h3 class="heading__title">Coming Soon...!</h3>
-          <p class="heading__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet dignissimos numquam nobis laudantium consectetur eligendi excepturi debitis, sapiente maxime, 
-            blanditiis rem modi tenetur cum culpa officiis iusto autem beatae! Voluptates.
-          </p>
+      <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+        <div class="heading  mt-90 mb-40">
+          <div class="row values_row">
+            <div class="col-md-3">
+              <img src="./assets/images/about/mission.jpg" alt="Leela clinic mission">
+            </div>
+            <div class="col-md-9">
+              <h3 class="mt-30 ml-30">Vision :</h3>
+              <ul>
+                <li>
+                To be the best Multispecialty clinic in Mysuru bringing back the concept of Family Doctor
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row values_row">
+            <div class="col-md-7">
+              <h3 class=" ml-30">Mission :</h3>
+              <ul>
+                <li>
+                  Redefine Clinic by providing Evidence based medical services with world class ambience, cleanliness and comfort
+                </li>
+                <li>
+                   Care for every patient as if they are your own family
+                </li>
+                <li>
+                  Partner with as many families as possible for their health care needs and decisions
+                </li>
+                <li>
+                  Increase awareness by health education and promote preventive medicine
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <img src="./assets/images/about/vission.jpg" alt="Leela clinic vission">
+
+            </div>
+          </div>
+          <div class="row values_row">
+            <div class="col-md-3">
+              <img src="./assets/images/about/values.jpg" alt="Leela clinic values">
+            </div>
+            <div class="col-md-9">
+              <h3 class=" ml-30">Values :</h3>
+              <ul>
+                <li><b> Respect</b> – Treat everyone with dignity</li>
+                <li><b>Trust</b> -  Develop mutual trust</li>
+                <li><b>Empathy </b>– Be empathetic and humane</li>
+                <li><b>Engage & Educate </b>- Enable patients to engage in decision making by educating them </li>
+              </ul>
+            </div>
+          </div>
+           </div>
+          
         </div><!-- /.heading -->
       </div><!-- /.col-lg-6 -->
     </div>
@@ -291,38 +338,7 @@
   <script src="assets/js/jquery-3.5.1.min.js"></script>
   <script src="assets/js/plugins.js"></script>
   <script src="assets/js/main.js"></script>
-  <script>
-    window.onload = function() {
-   // Set the date we're counting down to
-   var countDownDate = new Date("Jun 20, 2022 15:37:25").getTime();
-    
-   // Update the count down every 1 second
-   var x = setInterval(function() {
-   
-     // Get today's date and time
-     var now = new Date().getTime();
-       
-     // Find the distance between now and the count down date
-     var distance = countDownDate - now;
-       
-     // Time calculations for days, hours, minutes and seconds
-     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-       
-     // Output the result in an element with id="demo"
-     document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-     + minutes + "m " + seconds + "s ";
-       
-     // If the count down is over, write some text 
-     if (distance < 0) {
-       clearInterval(x);
-       document.getElementById("demo").innerHTML = "EXPIRED";
-     }
-   }, 1000);
-  }
-  </script>
+ 
 </body>
 
 </html>
