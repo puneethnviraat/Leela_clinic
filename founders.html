@@ -15,7 +15,23 @@
   <link rel="stylesheet" href="assets/css/libraries.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
+<style>
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .video-banner{
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-name: slideInLeft;
+  }
+</style>
 <body>
   <div class="wrapper">
     <div class="preloader">
@@ -158,33 +174,7 @@
       </nav><!-- /.navabr -->
     </header><!-- /.Header -->
 
-    <!-- ========================
-       page title 
-    =========================== -->
-    <section class="page-title page-title-layout1 bg-overlay">
-      <div class="bg-img"><img src="assets/images/page-titles/1.jpg" alt="background"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5">
-            <h1 class="pagetitle__heading">Caring For The Health & Well Being Of Socity.</h1>
-            <p class="pagetitle__desc">Leela clinic has been present in Mysure since 2021, offering innovative
-              solutions, specializing in medical services for better health.
-            </p>
-            <div class="d-flex flex-wrap align-items-center">
-              <a href="doctors-single-doctor2.html" class="about__Text" >
-                <h6>Smitha Somaiah</h6>
-                <!-- <i class="icon-arrow-right"></i> -->
-              </a>
-              <!-- <a href="services.html" class="btn btn__white btn__rounded">
-                <span>Our Services</span>
-                <i class="icon-arrow-right"></i>
-              </a> -->
-            </div>
-          </div><!-- /.col-xl-5 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.page-title -->
-
+  
     <!-- ========================
       About Layout 1
     =========================== -->
@@ -193,7 +183,8 @@
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6">
             <div class="heading-layout2">
-              <h3 class="heading__title mb-40">Welcome to Leela Clinic!</h3>
+              <h1 class="pagetitle__heading heading__title mb-40">Welcome to Leela Clinic!</h1>
+              
             </div><!-- /heading -->
           </div><!-- /.col-12 -->
         </div><!-- /.row -->
@@ -202,9 +193,8 @@
             <div class="about__Text" >
               <p>First of all, thanks for taking out time to visit our website and know about us. </p>
               <p class="mb-30">I always thought of having a clean, spacious, calm clinic space with pleasing ambience and healing vibes to practice medicine’ a sacred profession that I love. Mysuru, the city of palaces deserves such updated health care infra structures with world class ambience and services for its people. 
-              </p>
+                Hence the <strong>“Leela Clinic”</strong>. </p>
               <p>
-                Hence the <strong>“Leela Clinic”</strong>. <br>
                 Named after my mother, it is one of its kind multispecialty clinic located in heart of Kuvempunagar with a clear-cut patient centered vision, mission and values. 
                 <br>
                 Located by Sarvodaya Main Road of Kuvempunagar, it is easily accessible. It provides medical consultation for various health issues by experienced, passionate specialists in the field and has a diagnostic medical laboratory, pharmacy and day care facilities for treatment and minor medical procedures.   
@@ -224,11 +214,7 @@
           <div class="col-sm-12 col-md-12 col-lg-6">
             <div class="video-banner mb-40  ">
               <img src="assets/images/team/1.png" alt="about">
-              <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=Mj94bUIMwgA">
-                <div class="video__player">
-                  <i class="fa fa-play"></i>
-                </div>
-              </a>
+             
             </div><!-- /.video-banner -->
           </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
@@ -236,104 +222,42 @@
     </section><!-- /.About Layout 1 -->
 
     
-   
-   
     <!-- ========================
       Footer
     ========================== -->
-    <footer class="footer">
-      <div class="footer-primary">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4">
-              <div class="footer-widget-about">
-                <img src="assets/images/logo/logo-light.png" alt="logo" class="mb-30">
-                <p class="color-gray">Our goal is to deliver quality of care in a courteous, respectful, and
-                  compassionate manner. We hope you will allow us to care for you and strive to be the first and best
-                  choice for your family healthcare.
-                </p>
-                <!-- <a href="appointment.html" class="btn btn__primary btn__primary-style2 btn__link">
-                  <span>Make Appointment</span> <i class="icon-arrow-right"></i>
-                </a> -->
-              </div><!-- /.footer-widget__content -->
-            </div><!-- /.col-xl-2 -->
-            <!-- <div class="col-sm-6 col-md-6 col-lg-2 offset-lg-1">
-              <div class="footer-widget-nav">
-                <h6 class="footer-widget__title">Departments</h6>
-                <nav>
-                  <ul class="list-unstyled">
-                    <li><a href="#0">Neurology Clinic</a></li>
-                    <li><a href="#0">Cardiology Clinic</a></li>
-                    <li><a href="#0">Pathology Clinic</a></li>
-                    <li><a href="#0">Laboratory Analysis</a></li>
-                    <li><a href="#0">Pediatric Clinic</a></li>
-                    <li><a href="#0">Cardiac Clinic</a></li>
-                  </ul>
-                </nav>
-              </div>
-            </div> -->
-            <div class="col-sm-6 col-md-6 col-lg-3 offset-lg-1">
-              <div class="footer-widget-nav">
-                <h6 class="footer-widget__title">Quick Links</h6>
-                <nav>
-                  <ul class="list-unstyled">
-                    <li><a href="#0">About Us</a></li>
-                    <li><a href="#0">Our CLinic</a></li>
-                    <li><a href="#0">Our Doctors</a></li>
-                    <li><a href="#0">News & Media</a></li>
-                    <li><a href="#0">Appointments</a></li>
-                  </ul>
-                </nav>
-              </div><!-- /.footer-widget__content -->
-            </div><!-- /.col-lg-2 -->
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <div class="footer-widget-contact">
-                <h6 class="footer-widget__title color-heading">Quick Contacts</h6>
-                <ul class="contact-list list-unstyled">
-                  <li>If you have any questions or need help, feel free to contact with our team.</li>
-                  <li>
-                    <a href="tel:8951979925" class="phone__number">
-                      <i class="icon-phone"></i> <span>+91 89519 79925</span>
-                    </a>
-                  </li>
-                
-                  <li class="color-body">#1716, E & F Block, Ramakrishnanagar, Mysuru, Karnataka 570023</li>
-                </ul>
-                <div class="d-flex align-items-center">
-                  <a href="contact-us.html" class="btn btn__primary btn__link mr-30">
-                    <i class="icon-arrow-right"></i> <span>Get Directions</span>
-                  </a>
-                  <ul class="social-icons list-unstyled mb-0">
-                    <li><a href="#0"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#0"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="#0"><i class="fab fa-twitter"></i></a></li>
-                  </ul><!-- /.social-icons -->
-                </div>
-              </div><!-- /.footer-widget__content -->
-            </div><!-- /.col-lg-2 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </div><!-- /.footer-primary -->
-      <div class="footer-secondary">
-        <div class="container">
+    <section class="section footer fp-auto-height fp-section active fp-completely" data-fp-styles="null" >
+			<footer>
+				<div class="logo"><img src="assets/images/logo/logo-light.png"></div>
+				<div class="footer-menu">
+					<ul class="footer-menu-list">
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="careers.html">Careers</a></li>
+						<li><a href="contact-us.html">Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="footer-contact">
+          <a href="tel:08217961683" class="phone__number">	  <i class="icon-phone"></i>
+					<span>+91 89519 79925</span></a>
+          <div class="d-flex">
+            <ul class="social-icons list-unstyled">
+              <li><a href="https://wa.me/qr/63FMZAAEQ5MWD1" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+              <li><a href="https://www.facebook.com/Leela-Clinic-104585318928789/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://www.instagram.com/leelaclinic19/?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="https://www.youtube.com/channel/UCtLfxx20izs9K4qyQr12dwg" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+          </div> 
+				</div>
+        <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="col-sm-12 col-md-6 col-lg-6">
-              <span class="fz-14">&copy; Leela clinic, All Rights Reserved.</span>
-              <!-- <a class="fz-14 color-primary" href="http://themeforest.net/user/7oroof">7oroof.com</a> -->
-            </div><!-- /.col-lg-6 -->
-            <div class="col-sm-12 col-md-6 col-lg-6">
-              <nav>
-                <ul class="list-unstyled footer__copyright-links d-flex flex-wrap justify-content-end mb-0">
-                  <li><a href="#0">Terms & Conditions</a></li>
-                  <li><a href="#0">Privacy Policy</a></li>
-                  <li><a href="#0">Cookies</a></li>
-                </ul>
-              </nav>
-            </div><!-- /.col-lg-6 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </div><!-- /.footer-secondary -->
-    </footer><!-- /.Footer -->
+            <div class="col-md-6 col-md-offset-">
+              <div class="copy-write"><p>Copyright © 2020,  Leela clinic, All Rights Reserved.</p></div>
+            </div>
+            <div class="col-md-3">
+            </div>
+          </div>
+        </div>
+			</footer>
+		</section>
     <button id="scrollTopBtn"><i class="fas fa-long-arrow-alt-up"></i></button>
   </div><!-- /.wrapper -->
 

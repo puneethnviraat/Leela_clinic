@@ -7,14 +7,31 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="description" content="Leela Clinic - for better health">
   <link href="assets/images/favicon/favicon.png" rel="icon">
-  <title>Leela Clinic - Doctors</title>
+  <title>Leela Clinic - Careers</title>
+
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
   <link rel="stylesheet" href="assets/css/libraries.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
+<style>
+    .jobBox{
+        background-color: #ffffff;
+    border-left: 7px solid #B08968;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000000;
+    padding: 37px 27px;
+   height: 400px;
+    transition: all ease 0.5s;
+    position: relative;
+    top: 0;
+    }
+    .jobBox:hover {
+    transition: 1s ease;
+    top: -10px;
+}
+</style>
 <body>
   <div class="wrapper">
     <div class="preloader">
@@ -32,7 +49,7 @@
               <div class="d-flex align-items-center justify-content-between">
                 <ul class="contact__list d-flex flex-wrap align-items-center list-unstyled mb-0">
                   <li>
-                    <button class="miniPopup-emergency-trigger" type="button"></button>
+                    <button class="miniPopup-emergency-trigger" type="button">For Emergency</button>
                     <div id="miniPopup-emergency" class="miniPopup miniPopup-emergency text-center">
                       <div class="emergency__icon">
                         <i class="icon-call3"></i>
@@ -109,7 +126,7 @@
                  </ul><!-- /.dropdown-menu -->
               </li>
               <li class="nav__item has-dropdown">
-                <a href="#0" data-toggle="dropdown" class="dropdown-toggle nav__item-link active">Doctors</a>
+                <a href="#0" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Doctors</a>
                 <ul class="dropdown-menu">
                   
                   <li class="nav__item">
@@ -128,7 +145,7 @@
                 <a href="blog.html"  class=" nav__item-link">Blogs</a>
                 </li>
                 <li class="nav__item has-dropdown">
-                  <a href="gallery.html" data-toggle="dropdown" class=" dropdown-toggle nav__item-link">Gallery</a>
+                  <a href="gallery.html" data-toggle="dropdown" class=" dropdown-toggle nav__item-link active">Gallery</a>
                   <ul class="dropdown-menu">
                     <li class="nav__item">
                       <a href="gallery.html" class="nav__item-link">Images</a>
@@ -154,111 +171,91 @@
         </div><!-- /.container -->
       </nav><!-- /.navabr -->
     </header><!-- /.Header -->
+
     <!-- ========================
        page title 
     =========================== -->
-    <section class="page-title page-title-layout1 bg-overlay">
-      <div class="bg-img"><img src="assets/images/page-titles/1.jpg" alt="background"></div>
+    <section class="page-title page-title-layout5 bg-overlay text-center">
+      <div class="bg-img"><img src="assets/images/page-titles/6.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5">
-            <h1 class="pagetitle__heading"> Doctors Team</h1>
-            <p class="pagetitle__desc">Get Help For Your Medical Needs From Trusted Doctors
-            </p>
-            <!-- <a href="appointment.html" class="btn btn__primary btn__rounded">
-              <span>Make Appointment</span>
-              <i class="icon-arrow-right"></i>
-            </a> -->
-          </div><!-- /.col-xl-5 -->
+          <div class="col-12">
+            <h1 class="pagetitle__heading">Join Our Team</h1>
+          </div><!-- /.col-xl-6 -->
         </div><!-- /.row -->
       </div><!-- /.container -->
     </section><!-- /.page-title -->
-
     <!-- ========================
-        Team layout 1
-    ========================== -->
-    <section class="team-layout1 pb-40">
-      <div class="container">
-        <div class="row">
-          <!-- Member #1 -->
-          <div class="col-sm-6 col-md-4 col-lg-4">
-            <div class="member">
-              <div class="member__img">
-                <img src="assets/images/team/1.png" alt="member img">
-                <div class="member__hover">
-                  <ul class="social-icons list-unstyled mb-0">
-                    <li><a href="https://www.facebook.com/profile.php?id=100001690271028" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                      <li><a href="https://www.instagram.com/chandankumarhn2019/?igshid=YmMyMTA2M2Y=" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a></li>
-                      <li><a href="tel:+91 97312 33111" class="phone"><i class="fas fa-phone-alt"></i></a></li>
-                    
-                  </ul><!-- /.social-icons -->
-                </div><!-- /.member-hover -->
-              </div><!-- /.member-img -->
-              <div class="member__info">
-                <h5 class="member__name"><a href="doctors-single-doctor2.html">Dr. Chandan Kumar</a></h5>
-                <p class="member__job">General Physician </p>
-                <p class="member__desc">Dr. Chandan Kumar is a certified General Physician with MBBS and DNB General Medicine degree Registered in Karnataka Medical Council with KMC No. 64569</p>
-              </div><!-- /.member-info -->
-            </div><!-- /.member -->
-          </div><!-- /.col-lg-4 -->
-          <!-- Member #2 -->
-          <div class="col-sm-6 col-md-4 col-lg-4">
-            <div class="member">
-              <div class="member__img">
-                <img src="assets/images/team/2.jpg" alt="member img">
-                <div class="member__hover">
-                  <ul class="social-icons list-unstyled mb-0">
-                    <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i></a></li>
-                  </ul><!-- /.social-icons -->
-                </div><!-- /.member-hover -->
-              </div><!-- /.member-img -->
-              <div class="member__info">
-                <h5 class="member__name"><a href="doctors-single-doctor2.html">Dr. Doctor 1</a></h5>
-                <p class="member__job"> Specialist In</p>
-                <p class="member__desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus itaque, laudantium ullam sapiente cumque dolore quae quibusdam expedita,</p>
-              </div><!-- /.member-info -->
-            </div><!-- /.member -->
-          </div><!-- /.col-lg-4 -->
-          <!-- Member #3 -->
-          <div class="col-sm-6 col-md-4 col-lg-4">
-            <div class="member">
-              <div class="member__img">
-                <img src="assets/images/team/3.jpg" alt="member img">
-                <div class="member__hover">
-                  <ul class="social-icons list-unstyled mb-0">
-                    <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i></a></li>
-                  </ul><!-- /.social-icons -->
-                </div><!-- /.member-hover -->
-              </div><!-- /.member-img -->
-              <div class="member__info">
-                <h5 class="member__name"><a href="doctors-single-doctor2.html">Dr. Doctor 2</a></h5>
-                <p class="member__job"> Specialist In</p>
-                <p class="member__desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus itaque, laudantium ullam sapiente cumque dolore quae quibusdam expedita,</p>
-              </div><!-- /.member-info -->
-            </div><!-- /.member -->
-          </div><!-- /.col-lg-4 -->
-         
-        </div> <!-- /.row -->
-        <div class="row">
-          <div class="col-12 text-center">
-            <nav class="pagination-area">
-              <ul class="pagination justify-content-center">
-                <li><a class="current" href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#"><i class="icon-arrow-right"></i></a></li>
-              </ul>
-            </nav><!-- .pagination-area -->
-          </div><!-- /.col-12 -->
-        </div><!-- /.row -->
+     gallery layout2
+    =========================== -->
+    <section class="gallery-layout2 pt-130 pb-90">
+      <div class="container">  <div class="row">
+            <div class="boxCont col-md-4 col-sm-6 col-xs-12">
+               
+                    <div class="jobBox col-md-12 col-sm-12 col-xs-12 no-padding">
+                        <div class="jobName col-md-12 col-sm-12 col-xs-12 no-padding">
+                            <h4>Staff Nurse</h4>
+                        </div>
+                        <ul>
+                            <li>Monitoring patient’s condition and assessing their needs to provide the best possible care and advice</li>
+                        <li>Observing and interpreting patient’s symptoms and communicating them to physicians</li>
+                        <li>Collaborating with physicians and nurses to devise individualized care plans for patients</li>
+                        </ul>
+                        <p><strong>Skills:</strong> Nursing, GNM   </p>
+                        <a href="mailto:leelaclinic19@gmail.com" class="btn btn__secondary btn__rounded btn__block btn__xhight mt-10">
+                            <span>Apply now</span>
+                            <i class="icon-arrow-right"></i>
+                          </a>
+                    </div>    
+            </div>
+            <div class="boxCont col-md-4 col-sm-6 col-xs-12">
+               
+                <div class="jobBox col-md-12 col-sm-12 col-xs-12 no-padding">
+                    <div class="jobName col-md-12 col-sm-12 col-xs-12 no-padding">
+                        <h4>Lab Technician</h4>
+                    </div>
+                    <ul>
+                        <li>Receive, label and analyze samples (blood, toxic, tissue, etc.)</li>
+                    <li>Design and execute laboratory testing.</li>
+                    <li>Organize and store all chemicals substances.</li>
+                    <li>Adhere to standard procedures.</li>
+                    <li>Record all data and results in specified forms (paper and electronic) with accuracy and responsibility</li>
+                    </ul>
+                    <p><strong>Skills:</strong> Nursing, GNM   </p>
+                    <a href="mailto:leelaclinic19@gmail.com" class="btn btn__secondary btn__rounded btn__block btn__xhight mt-10">
+                        <span>Apply now</span>
+                        <i class="icon-arrow-right"></i>
+                      </a>
+                </div>    
+        </div>
+        <div class="boxCont col-md-4 col-sm-6 col-xs-12">
+               
+            <div class="jobBox col-md-12 col-sm-12 col-xs-12 no-padding">
+                <div class="jobName col-md-12 col-sm-12 col-xs-12 no-padding">
+                    <h4>Pharmacist</h4>
+                </div>
+                <ul>
+                    <li>Dispensing Medicines</li>
+                <li>Following Doctors prescriptions carefully.</li>
+                <li>Stock maintaining.</li>
+                <li>Preparing list of expiry and non movable medicines and informing the same to the superior.</li>
+                <li>To meet doctors and inform the medicines availability in pharmacy.</li>
+                <li>Update the stock details on daily basis.</li>
+                </ul>
+                <p><strong>Qualification:</strong>B.Pharmacy, D. Pharmacy,   </p>
+                <a href="mailto:leelaclinic19@gmail.com" class="btn btn__secondary btn__rounded btn__block btn__xhight mt-10">
+                    <span>Apply now</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+            </div>    
+    </div>
+        </div>
+      
+        
       </div><!-- /.container -->
-    </section><!-- /.Team layout 1  -->
+    </section><!-- /.gallery layout2 -->
 
-    
-    
+
     <!-- ========================
       Footer
     ========================== -->
@@ -297,7 +294,6 @@
 		</section>
     <button id="scrollTopBtn"><i class="fas fa-long-arrow-alt-up"></i></button>
   </div><!-- /.wrapper -->
-
 
   <script src="assets/js/jquery-3.5.1.min.js"></script>
   <script src="assets/js/plugins.js"></script>

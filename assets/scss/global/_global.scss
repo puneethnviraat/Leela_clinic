@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200;400&family=Yrsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 /*--------------------------
     Project Name: Medcity
     Version: 1.0
@@ -67,6 +68,7 @@ body {
     font-size: $body-font-size;
     color: $color-body;
     overflow-x: hidden;
+    letter-spacing: .5px;
 }
 
 ::selection {
