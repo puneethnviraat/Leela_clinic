@@ -225,10 +225,10 @@
         }
     }
     .footer-menu{
-        max-width: 35%  !important;
+        max-width: 40%  !important;
             }
             section.footer footer .logo{
-                max-width: 30%  !important;
+                max-width: 25%  !important;
             }
             section.footer footer .footer-contact .icon-phone{
                 display: none;
@@ -236,7 +236,7 @@
 }
 
 section.footer{background-color: black; 
-    padding: 5px 0px !important;}
+    padding: 0px 0px !important;}
   section.footer footer{display: flex;flex-wrap: wrap; align-items: center;flex-direction: row;padding:1.4722vw 3.125vw; }
 section.footer footer .logo{flex:1}
 section.footer footer .footer-menu{flex:30.555vw;text-align: center;}

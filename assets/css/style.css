@@ -4646,11 +4646,11 @@ input[type=radio] {
   }
 
   .footer-menu {
-    max-width: 35% !important;
+    max-width: 40% !important;
   }
 
   section.footer footer .logo {
-    max-width: 30% !important;
+    max-width: 25% !important;
   }
 
   section.footer footer .footer-contact .icon-phone {
@@ -4659,7 +4659,7 @@ input[type=radio] {
 }
 section.footer {
   background-color: black;
-  padding: 5px 0px !important;
+  padding: 0px 0px !important;
 }
 
 section.footer footer {
