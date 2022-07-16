@@ -4644,6 +4644,18 @@ input[type=radio] {
   #scrollTopBtn.actived {
     right: 20px;
   }
+
+  .footer-menu {
+    max-width: 35% !important;
+  }
+
+  section.footer footer .logo {
+    max-width: 30% !important;
+  }
+
+  section.footer footer .footer-contact .icon-phone {
+    display: none;
+  }
 }
 section.footer {
   background-color: black;
