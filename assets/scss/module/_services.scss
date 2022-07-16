@@ -50,6 +50,7 @@
     .service__desc {
         font-size: 15px;
         margin-bottom: 32px;
+        text-align: justify;
         @include prefix(transition, all .3s linear, webkit moz ms o);
     }
 
