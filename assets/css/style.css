@@ -4545,7 +4545,7 @@ input[type=radio] {
   align-items: center;
   font-family: "Spectral", serif;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 1;
   color: #2B2E34 !important;
 }
@@ -4587,7 +4587,7 @@ input[type=radio] {
 @media (min-width: 1200px) {
   .footer .footer-widget-nav,
 .footer .footer-widget-about {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 }
 /* Mobile Phones and tablets */
@@ -4622,6 +4622,10 @@ input[type=radio] {
   }
   .footer .phone__number {
     margin: 10px 0;
+  }
+
+  .footer-menu-list {
+    padding: 0px !important;
   }
 }
 /* Mobile Phones */
@@ -4659,7 +4663,7 @@ section.footer footer .logo {
 }
 
 section.footer footer .footer-menu {
-  flex: 0 0 55.555vw;
+  flex: 0 0 50.555vw;
   text-align: center;
 }
 
@@ -4705,6 +4709,7 @@ section.footer footer .footer-menu ul li:not(:last-of-type) a:after {
 section.footer footer .footer-contact {
   flex: 1;
   color: #fff;
+  text-align: center;
 }
 
 section.footer footer .footer-contact a:hover {
