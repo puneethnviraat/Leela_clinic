@@ -278,6 +278,10 @@
   @media all and (max-width: 768px) {
      .item-img-mobile {
       display: block !important;
+      min-height: 75%;
+    }
+    .slide__content{
+        visibility: hidden;
     }
   
     .item-img-desktop {
