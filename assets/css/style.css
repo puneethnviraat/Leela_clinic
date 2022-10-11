@@ -2954,6 +2954,10 @@ input[type=radio] {
   z-index: 1000;
 }
 
+.logo-dark {
+  margin-top: -2px;
+}
+
 /* Navbar */
 .navbar {
   padding: 0;
