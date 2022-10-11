@@ -5811,6 +5811,10 @@ section.footer footer .copy-write p {
     padding: 15px 20px;
   }
 }
+.member__info .member__desc {
+  color: #030303 !important;
+}
+
 /*----------------------------
      Testimonial
 ------------------------------*/
@@ -6629,7 +6633,7 @@ section.footer footer .copy-write p {
 .contact-info .contact-box .contact__icon,
 .contact-info .contact-box .time__list li,
 .contact-info .contact-box .contact__desc {
-  color: #ffffff;
+  color: #030303;
 }
 .contact-info .contact-box .phone__number {
   font-size: 23px;
@@ -6699,14 +6703,14 @@ textarea.form-control {
 }
 .contact-layout1 .contact-panel__info .contact__list li,
 .contact-layout2 .contact-panel__info .contact__list li {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 14px;
+  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 .contact-layout1 .contact-panel__info .contact__list li a,
 .contact-layout2 .contact-panel__info .contact__list li a {
-  color: #ffffff;
+  color: #000000;
 }
 .contact-layout1 .contact-panel__info .contact__list li i,
 .contact-layout2 .contact-panel__info .contact__list li i {
@@ -7835,9 +7839,11 @@ textarea.form-control {
   transition: all 0.3s linear;
 }
 .service-item .service__desc {
-  font-size: 15px;
+  font-size: 16px;
   margin-bottom: 32px;
   text-align: justify;
+  font-family: auto;
+  color: #000000;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -ms-transition: all 0.3s linear;
