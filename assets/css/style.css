@@ -4625,7 +4625,7 @@ input[type=radio] {
     font-size: 13px;
   }
   .footer .phone__number {
-    margin: 10px 0;
+    margin: 5px 0;
   }
 
   .footer-menu-list {
@@ -8784,3 +8784,6 @@ textarea.form-control {
 }
 
 /*# sourceMappingURL=style.css.map */
+.phone__number {
+  margin: 5px 0 !important;
+}
