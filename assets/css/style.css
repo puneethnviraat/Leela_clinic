@@ -1128,7 +1128,7 @@ h5,
 h6 {
   color: #2B2E34;
   font-family: "Spectral", serif;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-weight: 700;
   line-height: 1.3;
   margin-bottom: 20px;
@@ -1210,6 +1210,7 @@ h6 {
 .text-block__desc {
   font-size: 16px;
   line-height: 26px;
+  text-align: justify;
 }
 
 .text__link {
@@ -2114,11 +2115,11 @@ input[type=radio] {
   position: relative;
   z-index: 2;
   display: block;
-  width: 23px;
-  height: 23px;
+  width: 30px;
+  height: 30px;
   line-height: 23px;
   border-radius: 50%;
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
   color: #ffffff;
   background-color: #030303;
@@ -3220,7 +3221,8 @@ input[type=radio] {
   margin-right: 0;
 }
 .header-topbar .social-icons li a {
-  background-color: #030303;
+  background-color: #B08968;
+    padding-top: 12%;
 }
 .header-topbar .social-icons li a:hover {
   background-color: #222222;
@@ -4853,6 +4855,7 @@ section.footer footer .copy-write p {
   bottom: 30px;
   text-align: center;
   width: 100%;
+  z-index: 9;
 }
 .slider .cta-banner {
   max-width: 270px;
