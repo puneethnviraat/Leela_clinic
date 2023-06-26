@@ -4,10 +4,9 @@
 
 $senderName = $_POST['contact-name'];
 $senderPhone = $_POST['contact-phone'];
-$senderVisit = $_POST['visit'];
 $senderEmail = $_POST['contact-email'];
-$senderMessage= $_POST['contact-message'];
-$senderSubject = 'New Message From ' . $senderName;
+$senderDate = $_POST['contact-date'];
+$senderTime= $_POST['contact-time'];
 
 //Create a new PHPMailer instance
 $mail = new PHPMailer();
@@ -21,8 +20,8 @@ $mail = new PHPMailer();
     $mail->Port = 587;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('admin@leelaclinic.com', 'Web site Contact ');
-    $mail->addAddress('leelaclinic19@gmail.com', 'Leela clinic');     // Add a recipient
+    $mail->setFrom('admin@leelaclinic.com', $senderName);
+    $mail->addAddress('leelaclinic19@gmail.com', 'Leela clinic');    // Add a recipient
     //$mail->addAddress('puneethnviraat@gmail.com');               // Name is optional
     $mail->addReplyTo($senderEmail, $senderName);
 
@@ -33,7 +32,7 @@ $mail = new PHPMailer();
 
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = 'Contacted from website';
+    $mail->Subject = 'New appointment from website';
 
 //now make those variables the body of the emails
 $message = '<html><body>';
@@ -41,8 +40,8 @@ $message .= '<table rules="all" style="border:1px solid #666;width:300px;" cellp
 $message .= ($senderName) ? "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>" . $senderName . "</td></tr>" : '';
 $message .= ($senderEmail) ?"<tr><td><strong>Email:</strong> </td><td>" . $senderEmail . "</td></tr>" : '';
 $message .= ($senderPhone) ?"<tr><td><strong>Phone:</strong> </td><td>" . $senderPhone . "</td></tr>" : '';
-$message .= ($senderVisit) ?"<tr><td><strong>Visit:</strong> </td><td>" . $senderVisit . "</td></tr>" : '';
-$message .= ($senderMessage) ?"<tr><td><strong>Email:</strong> </td><td>" . $senderMessage . "</td></tr>" : '';
+$message .= ($senderDate) ?"<tr><td><strong>Date:</strong> </td><td>" . $senderDate . "</td></tr>" : '';
+$message .= ($senderTime) ?"<tr><td><strong>Time:</strong> </td><td>" . $senderTime . "</td></tr>" : '';
 
 $message .= "</table>";
 $message .= "</body></html>";

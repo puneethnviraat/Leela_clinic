@@ -23,7 +23,7 @@
      
  ----------------------------*/
 
-$(function () {
+ $(function () {
 
     "use strict";
 
@@ -235,7 +235,26 @@ $(function () {
             return false;
         }
     });
-
+/*==========  Appointment Form validation  ==========*/
+var appointmentForm = $("#appointmentForm"),
+apponitmentResult = $('.appointment-result');
+appointmentForm.validate({
+debug: false,
+submitHandler: function (appointmentForm) {
+    $(apponitmentResult, appointmentForm).html('Please Wait...');
+    $.ajax({
+        type: "POST",
+        url: "assets/php/appointment.php",
+        data: $(appointmentForm).serialize(),
+        timeout: 20000,
+        success: function (msg) {
+            $(apponitmentResult, appointmentForm).html('<div class="alert alert-success" role="alert"><strong>Thank you. We will contact you shortly.</strong></div>').delay(3000).fadeOut(2000);
+        },
+        error: $('.thanks').show()
+    });
+    return false;
+}
+});
     /*==========   Slick Carousel ==========*/
     $('.slick-carousel').slick();
 
@@ -316,3 +335,27 @@ $(function () {
     // [Zoom Effect on Hovering] Find it in shop-single-product.html
     $(".zoomin").imagezoomsl();
 });
+//Disable past dates
+$(function(){
+    var dtToday = new Date();
+ 
+    var month = dtToday.getMonth() + 1;
+    var day = dtToday.getDate();
+    var year = dtToday.getFullYear();
+    if(month < 10)
+        month = '0' + month.toString();
+    if(day < 10)
+        day = '0' + day.toString();
+    
+    var maxDate = year + '-' + month + '-' + day;
+    $('#contact-date').attr('min', maxDate);
+});
+// chat function
+$(document).ready(function() {
+    var mainDiv = document.getElementById('chat-main-button');
+  mainDiv.addEventListener('click', function(){
+    this.children.item(0).classList.toggle('fa-times');
+    this.classList.toggle('open'); });
+    
+   
+  });
